@@ -1,17 +1,3 @@
----
-objectives:
-  [
-    'Describe what MCP is and how it can be used to integrate AI into applications',
-    'Identify the key components of MCP and their roles in AI integration',
-    'Describe Structured Output and how it can be used to control AI responses',
-    'Describe Retrieval Augmented Generation and how it can be used to enhance AI responses with external data',
-    'Describe Vector DBs and Embeddings and how they can be used to store and retrieve information for AI applications (in the context of RAG)'
-  ]
-module: AI-Enabled-Technologist
-week: 1
-workshop: true
-title: Using AI in Applications
----
 
 import LearningObjectiveComponent from '@theme/LearningObjectiveComponent';
 import LockedContent from "@theme/LockedContent";

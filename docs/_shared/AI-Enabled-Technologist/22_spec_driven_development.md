@@ -1,16 +1,3 @@
----
-objectives:
-  [
-    'Understand the concept of spec-driven development and its benefits',
-    'Learn how to write effective specifications for software development projects',
-    'Use AI tools to generate code based on specifications',
-    'Match model capability to task difficulty when planning and implementing from a spec'
-  ]
-module: AI-Enabled-Technologist
-week: 1
-workshop: true
-title: Spec-Driven Development with AI
----
 
 import LearningObjectiveComponent from '@theme/LearningObjectiveComponent';
 import LockedContent from "@theme/LockedContent";

@@ -1,14 +1,3 @@
----
-objectives:
-  [
-    'Give an agent Skills to include tools, APIs, and code execution',
-    'Set Instructions for agents to define boundaries and guidelines for behaviour'
-  ]
-module: AI-Enabled-Technologist
-week: 1
-workshop: true
-title: Advanced Agentic AI Coding
----
 
 import LearningObjectiveComponent from '@theme/LearningObjectiveComponent';
 import LockedContent from "@theme/LockedContent";

@@ -1,15 +1,3 @@
----
-objectives:
-  [
-    'Describe the concept of Agentic AI and its applications',
-    'Differentiate between Agentic AI and traditional AI tools',
-    'How to use Agentic AI, without diminishing human ownership and responsibility'
-  ]
-module: AI-Enabled-Technologist
-week: 1
-workshop: true
-title: Using Agentic AI Coding
----
 
 import LearningObjectiveComponent from '@theme/LearningObjectiveComponent';
 import LockedContent from "@theme/LockedContent";

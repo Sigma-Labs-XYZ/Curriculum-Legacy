@@ -1,16 +1,3 @@
----
-objectives:
-  [
-    'Create a GitHub Copilot Skill (SKILL.md) to automate a repeating task',
-    'Prompt an LLM to intelligently use the tools it has access to',
-    'Use an LLM to review your work and suggest improvements',
-    'Write custom instructions for GitHub Copilot and observe how they change its behaviour'
-  ]
-module: AI-Enabled-Technologist
-week: 1
-workshop: true
-title: Using AI Agents for Non-Coding Tasks
----
 
 import LearningObjectiveComponent from '@theme/LearningObjectiveComponent';
 import LockedContent from "@theme/LockedContent";

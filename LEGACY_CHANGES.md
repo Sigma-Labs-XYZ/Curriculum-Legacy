@@ -38,7 +38,7 @@ Notes:
 
 - We include only the `Workshops/` folders from the three modules.
 - We also include these pages because workshops link to them: `Advanced-Data/01-Week 1/01-case-study.md`, `Advanced-Data/04-Week 4/01-case-study.md`, `Advanced-Data/05-Week 5/00-brief.md`, `Advanced-Data/Group Project/03-assessment.md`, `Advanced-Data/Group Project/Roles/*.md`, `Software-Fundamentals/Fundamentals/Week 1/01-Getting-Setup.md`, `Technical-Business-Analyst/03-Week 3/01-case-study.md`, `Technical-Business-Analyst/03-Week 3/02-handbook.md`, `Technical-Business-Analyst/03-Week 3/06-aside-managing-n8n-resources.md`, plus the images they use.
-- Several TBA and Advanced Data workshops embed lessons from the AI-Enabled Technologist module. We copied those 7 lessons into `docs/_shared/AI-Enabled-Technologist/` as partials and pointed the host workshops' `import` lines there instead of `/docs/AI-Enabled-Technologist/`.
+- Several TBA and Advanced Data workshops embed lessons from the AI-Enabled Technologist module. We copied those 7 lessons into `docs/_shared/AI-Enabled-Technologist/` as partials, removed their front matter (Docusaurus ignores it in partials and fails the CI build on it), and pointed the host workshops' `import` lines there instead of `/docs/AI-Enabled-Technologist/`.
 - Links to the AI-Enabled Technologist overview page now go to the live site: `https://curriculum.sigmalabs.co.uk/AI-Enabled-Technologist/overview`.
 - We left out unpublished drafts with a leading `.`, such as `.96_intro_to_blackjack.md`.
 - `docs/index.md` is new and acts as the homepage.

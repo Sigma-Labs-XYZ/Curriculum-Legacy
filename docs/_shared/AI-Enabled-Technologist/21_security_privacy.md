@@ -1,17 +1,3 @@
----
-objectives:
-  [
-    'Understand the security risks associated with using AI code generation tools',
-    'Learn how to avoid leaking personally identifiable information (PII) and sensitive data when using AI services',
-    'Recognise and mitigate prompt injection attacks in AI interactions',
-    'Prevent intellectual property leakage when using AI code assistants',
-    'Apply best practices for secure and compliant use of AI tools in software development'
-  ]
-module: AI-Enabled-Technologist
-week: 1
-workshop: true
-title: Using AI with Security and Privacy in Mind
----
 
 import LearningObjectiveComponent from '@theme/LearningObjectiveComponent';
 import LockedContent from "@theme/LockedContent";
