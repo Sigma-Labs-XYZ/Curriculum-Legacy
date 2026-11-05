@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "first_name": "John",
+    "last_name": "Doe",
+    "date_started": "10/10/2015",
+    "department": "Engineering",
+    "role": "Product Manager"
+  },
+  {
+    "id": 2,
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "date_started": "12/07/2020",
+    "department": "Engineering",
+    "role": "Software Engineer"
+  },
+  {
+    "id": 3,
+    "first_name": "Beyonce",
+    "last_name": "Knowles",
+    "date_started": "14/11/2022",
+    "department": "Marketing",
+    "role": "Social Media Manager"
+  },
+  {
+    "id": 4,
+    "first_name": "Michael",
+    "last_name": "Gambon",
+    "date_started": "01/03/2011",
+    "department": "Sales",
+    "role": "Head of Sales"
+  },
+  {
+    "id": 5,
+    "first_name": "Charles",
+    "last_name": "Day",
+    "date_started": "23/02/2021",
+    "department": "Operations",
+    "role": "Administrative Assistant"
+  }
+]

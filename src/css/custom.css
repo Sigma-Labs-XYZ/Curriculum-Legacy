@@ -1,0 +1,246 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #e7520c;
+  --ifm-color-primary-dark: #d04a0b;
+  --ifm-color-primary-darker: #c4460a;
+  --ifm-color-primary-darkest: #a23908;
+  --ifm-color-primary-light: #f35e18;
+  --ifm-color-primary-lighter: #f46624;
+  --ifm-color-primary-lightest: #f57e46;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-color-primary: #e7520c;
+  --ifm-color-primary-dark: #d04a0b;
+  --ifm-color-primary-darker: #c4460a;
+  --ifm-color-primary-darkest: #a23908;
+  --ifm-color-primary-light: #f35e18;
+  --ifm-color-primary-lighter: #f46624;
+  --ifm-color-primary-lightest: #f57e46;
+}
+
+.alert--ai-suggestion {
+  --ifm-alert-background-color: rgba(138, 44, 226, 0.12);
+  --ifm-alert-background-color-highlight: rgba(138, 44, 226, 0.2);
+  --ifm-alert-foreground-color: #5b21b6;
+  --ifm-alert-border-color: #8a2ce2;
+}
+
+html[data-theme='dark'] .alert--ai-suggestion {
+  --ifm-alert-background-color: rgba(167, 139, 250, 0.2);
+  --ifm-alert-background-color-highlight: rgba(167, 139, 250, 0.28);
+  --ifm-alert-foreground-color: #d8b4fe;
+  --ifm-alert-border-color: #a78bfa;
+}
+
+.katex-html {
+  display: none;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.block p,
+.block a,
+.block code,
+.block ol,
+.block ul {
+  font-size: 16px;
+}
+
+code,
+pre,
+table {
+  font-size: 12px !important;
+}
+
+/* Override the code font size for titles*/
+h1>code {
+  font-size: 2.5rem !important;
+}
+
+h2>code {
+  font-size: 1.75rem !important;
+}
+
+h3>code {
+  font-size: 1.25rem !important;
+}
+
+.button,
+.button:hover {
+  color: var(--ifm-color-primary);
+}
+
+.block {
+  padding: 5px 5px 5px 0px;
+}
+
+.block .cell-row .cell-content.source-markdown {
+  padding-left: 0px !important;
+}
+
+.cell-header {
+  display: none;
+}
+
+.block-light-selected {
+  display: none;
+}
+
+.block-light {
+  display: none;
+}
+
+.border,
+#border {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.border {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+img[alt~='small'] {
+  width: 200px;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+img[alt~='medium'] {
+  width: 400px;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+img[alt~='large'] {
+  width: 600px;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+img[alt~='xlarge'] {
+  width: 800px;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+img[alt~='border'] {
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+img[alt~='centre'] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fullwidth,
+img[alt~='fullwidth'] {
+  width: 100%;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+details {
+  font-size: 16px;
+  border: 1px solid var(--ifm-color-primary);
+  background-color: rgba(255, 171, 111, 0.423);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+/* CSS */
+.sigma-button {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: var(--ifm-color-primary);
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui, -apple-system, system-ui, 'Helvetica Neue', Helvetica,
+    Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.sigma-button-small {
+  font-size: 12px;
+  min-height: 2rem;
+}
+
+.sigma-button:hover,
+.sigma-button:focus {
+  background-color: var(--ifm-color-primary-lightest);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.sigma-button:hover {
+  transform: translateY(-1px);
+}
+
+.sigma-button:active {
+  background-color: var(--ifm-color-primary-light);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+textarea {
+  outline: none;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 1rem;
+  font: var(--ifm-font-size-base) / var(--ifm-line-height-base) var(--ifm-font-family-base);
+}
+
+.sigma-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sigma-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
