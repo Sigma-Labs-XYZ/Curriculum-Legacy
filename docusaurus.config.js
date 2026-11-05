@@ -77,9 +77,24 @@ module.exports = async function createConfigAsync() {
           hideOnScroll: true,
           items: [
             {
-              type: 'docSidebar',
-              sidebarId: 'SoftwareFundamentals',
-              label: 'Software Fundamentals'
+              label: 'Fundamentals',
+              items: [
+                {
+                  type: 'docSidebar',
+                  sidebarId: 'SoftwareFundamentals',
+                  label: 'Software Fundamentals'
+                },
+                {
+                  type: 'docSidebar',
+                  sidebarId: 'CloudFundamentals',
+                  label: 'Cloud Fundamentals'
+                },
+                {
+                  type: 'docSidebar',
+                  sidebarId: 'DataAnalysisFundamentals',
+                  label: 'Data Analysis Fundamentals'
+                }
+              ]
             },
             {
               type: 'docSidebar',

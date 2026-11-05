@@ -13,6 +13,8 @@ The notes here don't get updated. For the current curriculum, go to [curriculum.
   - [Fundamentals](./Software-Fundamentals/Fundamentals/Week%201/Workshops/02_intro.md)
   - [Networking](./Software-Fundamentals/Networking/Week%201/Workshops/01_apis_networks.md)
   - [Backend](./Software-Fundamentals/Backend/Week%201/Workshops/01_backend_i.md)
+- [**Cloud Fundamentals**](./Cloud-Fundamentals/Week%201/Workshops/00-the-cloud.md)
+- [**Data Analysis Fundamentals**](./Data-Analysis-Fundamentals/01-overview.md)
 - [**Advanced Data**](./Advanced-Data/01-Week%201/Workshops/00-data-engineering.md)
 - [**Technical Business Analyst**](./Technical-Business-Analyst/01-Week%201/Workshops/00-case-study.md)
 

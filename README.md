@@ -9,10 +9,12 @@ A frozen copy of the Sigma Labs workshop notes from before the AI coach (CoachBo
 The workshops from these modules:
 
 - Software Fundamentals (Fundamentals, Networking, Backend)
+- Cloud Fundamentals
+- Data Analysis Fundamentals (Weeks 1 and 2)
 - Advanced Data
 - Technical Business Analyst
 
-Each workshop shows its last version before we converted it to CoachBot. Everything else matches the live curriculum's `main` branch at `536d824f4` (2026-11-04). [LEGACY_CHANGES.md](./LEGACY_CHANGES.md) lists every file that differs from that commit and explains why.
+Each workshop shows its last version before we converted it to CoachBot. Everything else matches the live curriculum's `main` branch from early November 2026. [LEGACY_CHANGES.md](./LEGACY_CHANGES.md) gives the exact commits and lists every file that differs, with the reason.
 
 This site has no backend:
 
